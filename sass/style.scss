@@ -1,0 +1,70 @@
+@import "libs/_elements";
+@import "libs/_blank";
+@import "libs/_fsize";
+
+
+
+/*
+================================================================================
+|                                     reset                                     |
+================================================================================
+*/
+
+@import "libs/_reset";
+
+
+
+/*
+================================================================================
+|                                     Fonts                                    |
+================================================================================
+*/
+
+@import "libs/_fonts";
+
+
+
+/*
+================================================================================
+|                                     Start rools                              |
+================================================================================
+*/
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+section,
+header {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  padding: 35px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #545454;
+}
+
+@import "content/navigation";
+@import "content/phones_navigation";
+@import "content/feedback";
+@import "content/phones";
